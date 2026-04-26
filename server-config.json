@@ -1,0 +1,23 @@
+{
+  "inbounds": [
+    {
+      "port": 18404,
+      "listen": "0.0.0.0",
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "c43da8e3-51d9-41d3-830e-3cffeae693e6",
+            "alterId": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/vmess"
+        }
+      }
+    }
+  ]
+}
